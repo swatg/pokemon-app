@@ -1,0 +1,44 @@
+.detailgrid {
+  display: grid;
+  flex-direction: column;
+  overflow: scroll;
+  grid-gap: 1rem;
+  grid-template-columns: auto;
+}
+
+
+.image {
+  padding: 1rem;
+  order: -1;
+  display: flex;
+  justify-content: center;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0.25rem;
+  background-color: lightcyan;
+  padding: 1rem;
+  order: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .detailgrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .image {
+    order: 0;
+  }
+
+  .detail {
+    order: -1;
+  }
+}
+
+.weakness {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 0.25rem;
+}

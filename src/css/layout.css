@@ -1,0 +1,18 @@
+:root {
+  --baseline: 0.5rem;
+  --column-count: 4;
+  --gutter: 0.5rem;
+} 
+
+/* Wrapper */
+.wrapper {
+  display: grid;
+  grid-template-columns: [grid-start]var(--gutter) [content-start]1fr[content-end] var(--gutter)[grid-end];
+}
+
+.wrapperContent {
+  grid-column: content-start/content-end;
+  overflow: scroll;
+  background: whitesmoke;
+}
+

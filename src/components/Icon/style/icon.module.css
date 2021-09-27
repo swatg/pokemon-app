@@ -1,0 +1,15 @@
+.lineCard__iconright {
+  padding: 1.5rem;
+  position: absolute;
+  right: -0.15rem;
+  top: 0.15rem;
+  transition: background-color 0.2s;
+}
+
+.lineCard__iconleft {
+  padding: 1.5rem;
+  position: absolute;
+  left: -0.15rem;
+  top: 0.15rem;
+  transition: background-color 0.2s;
+}

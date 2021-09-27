@@ -1,0 +1,21 @@
+.badge {
+  align-items: center;
+  border-radius: .5rem;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+}
+
+.default {
+  background: black;
+  color: white;
+}
+
+.resistant {
+  background: green;
+  color: white;
+}
+
+.weak {
+  background: red;
+  color: white;
+}
