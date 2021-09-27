@@ -12,12 +12,18 @@
   height: 3rem;
   justify-content: center;
   outline: none;
-  padding: 0 1.5rem;
+  padding: 0 0;
   text-align: center;
   text-transform: capitalize;
   text-decoration: none;
   user-select: none;
   align-self: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .button {
+    padding: 0 1.5rem;
+  }
 }
 
 .button:hover {
